@@ -9,7 +9,7 @@ object EstimatorTransformerParamExample {
     val spark = SparkSession
       .builder
       .master("local[*]")
-      .appName("SummarizerExample")
+      .appName("EstimatorTransformerParamExample")
       .getOrCreate()
     import spark.implicits._
     import Summarizer._
