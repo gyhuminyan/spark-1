@@ -44,7 +44,7 @@ import scala.util.parsing.json.JSON
   */
 object Kafka2Spark2Hbase {
 
-  Logger.getLogger("com").setLevel(Level.ERROR) //设置日志级别
+  Logger.getLogger(this.getClass).setLevel(Level.ERROR) //设置日志级别
 
   var confPath: String = System.getProperty("user.dir") + File.separator + "conf"
 
